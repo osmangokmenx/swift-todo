@@ -12,6 +12,7 @@
 		AC8EB0A428D457C300875873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EB0A328D457C300875873 /* ContentView.swift */; };
 		AC8EB0A628D457C400875873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8EB0A528D457C400875873 /* Assets.xcassets */; };
 		AC8EB0A928D457C400875873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8EB0A828D457C400875873 /* Preview Assets.xcassets */; };
+		ACEEE02C28D4B1AC00304FED /* CreateTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEEE02B28D4B1AC00304FED /* CreateTodo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AC8EB0A328D457C300875873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC8EB0A528D457C400875873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC8EB0A828D457C400875873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACEEE02B28D4B1AC00304FED /* CreateTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				AC8EB0A128D457C300875873 /* swift_todoApp.swift */,
 				AC8EB0A328D457C300875873 /* ContentView.swift */,
+				ACEEE02B28D4B1AC00304FED /* CreateTodo.swift */,
 				AC8C987F28D473C2007AD937 /* ListItemRow.swift */,
 				AC8EB0A528D457C400875873 /* Assets.xcassets */,
 				AC8EB0A728D457C400875873 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8EB0A428D457C300875873 /* ContentView.swift in Sources */,
+				ACEEE02C28D4B1AC00304FED /* CreateTodo.swift in Sources */,
 				AC8EB0A228D457C300875873 /* swift_todoApp.swift in Sources */,
 				AC8C988028D473C2007AD937 /* ListItemRow.swift in Sources */,
 			);
