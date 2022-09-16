@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var showAlert : Bool = false
     @State var newTodo : String = ""
     @State var ToDoItems: [String] = []
-    
+    let db = DBHelper();
     var body: some View {
         NavigationView {
             VStack {
